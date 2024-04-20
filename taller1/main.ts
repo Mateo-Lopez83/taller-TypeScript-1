@@ -10,12 +10,12 @@ function crearTabla(familia: Personaje[]): void {
     }
 
     for (let perrillo of familia) {
-        //Mi fila
+
         let trElement: HTMLElement = document.createElement("tr");
 
-        //Columnas
+   
         trElement.innerHTML = `<td style="font-weight: bold">${perrillo.id}</td>
-        <td style="color: rgb(36, 129, 211)">${perrillo.nombre}</td>
+        <td>${perrillo.nombre}</td>
         <td>${perrillo.primera_ap}</td>`;
 
         tbodySeries.appendChild(trElement);

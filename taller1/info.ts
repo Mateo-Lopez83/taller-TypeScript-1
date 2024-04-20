@@ -44,4 +44,3 @@ export const familia: Personaje[]=[
         1996
     )
 ];
-//export const info = familia.map(esnupi => new personaje(esnupi.id,esnupi.nombre,esnupi.Primera_ap,esnupi.imagen_principal))

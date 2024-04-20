@@ -8,10 +8,8 @@ function crearTabla(familia) {
     }
     for (var _i = 0, familia_1 = familia; _i < familia_1.length; _i++) {
         var perrillo = familia_1[_i];
-        //Mi fila
         var trElement = document.createElement("tr");
-        //Columnas
-        trElement.innerHTML = "<td style=\"font-weight: bold\">".concat(perrillo.id, "</td>\n        <td style=\"color: rgb(36, 129, 211)\">").concat(perrillo.nombre, "</td>\n        <td>").concat(perrillo.primera_ap, "</td>");
+        trElement.innerHTML = "<td style=\"font-weight: bold\">".concat(perrillo.id, "</td>\n        <td>").concat(perrillo.nombre, "</td>\n        <td>").concat(perrillo.primera_ap, "</td>");
         tbodySeries.appendChild(trElement);
     }
 }
