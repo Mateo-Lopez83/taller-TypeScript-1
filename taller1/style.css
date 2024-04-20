@@ -32,7 +32,14 @@ p{
     border-left: 50%;
     border-right: 10%;
 }
-.name-column {
-    min-width: 300px; /*Para el espacio de Name */
-    white-space: nowrap; /*esto hace que css no me ponga saltos de linea en los titulos de las series*/
+.columnas {
+    min-width: 300px; 
+    white-space: nowrap; 
   }
+
+  .table {
+    width: auto; 
+    max-width: 80%; 
+    margin-left: 80px;
+    border-top: 1px solid #dee2e6;
+}
